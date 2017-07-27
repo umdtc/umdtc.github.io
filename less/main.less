@@ -166,6 +166,7 @@ header {
     min-height: auto;
     .background-cover;
     background-position: center;
+    background-size: cover;
     background-image: url('../img/tc-teddy.jpg');
     text-align: center;
     color: white;
@@ -245,9 +246,9 @@ header {
     width: 100%;
     .portfolio-box-caption {
         color: white;
-        opacity: 0;
+        opacity: 1;
         display: block;
-        background: fade(@theme-primary, 90%);
+        background: fade(@theme-primary, 70%);
         position: absolute;
         bottom: 0;
         text-align: center;
@@ -277,7 +278,7 @@ header {
     }
     &:hover {
         .portfolio-box-caption {
-            opacity: 1;
+            background: fade(darken(@theme-primary, 10%), 85%)
         }
     }
     &:focus {
@@ -287,7 +288,7 @@ header {
         .portfolio-box-caption {
             .portfolio-box-caption-content {
                 .project-category {
-                    font-size: 22px;
+                    font-size: 30px;
                 }
                 .project-name {
                     font-size: 14px;
@@ -364,4 +365,8 @@ body {
 
 .footer-text {
     padding-top: 3em;
+}
+
+.social-icon {
+    padding: .5em 0;
 }
