@@ -4,6 +4,7 @@
   "description": "umdtc website",
   "main": "gulpfile.js",
   "dependencies": {
+    "flow-bin": "^0.51.1",
     "npm": "^5.3.0"
   },
   "devDependencies": {
