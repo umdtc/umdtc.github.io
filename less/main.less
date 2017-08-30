@@ -55,6 +55,16 @@ p {
     color: white;
 }
 
+.bg-gray {
+    background-color: @gray-lighter;
+    color: @gray-darker;
+}
+
+.bg-darkgray {
+    background-color: @gray;
+    color: @gray-lighter;
+}
+
 .text-faded {
     color: fade(white, 70%);
 }
@@ -244,7 +254,6 @@ header {
     max-width: 650px;
     margin: 0 auto;
     width: 100%;
-    border: thin solid white;
     .portfolio-box-caption {
         color: white;
         opacity: 1;
@@ -364,10 +373,67 @@ body {
     webkit-tap-highlight-color: @gray-darker;
 }
 
-.footer-text {
-    padding-top: 3em;
+.navbar-brand-img {
+    float: left;
+    height: 40px;
+    padding: 0 5px 15px 0;
 }
 
-.social-icon {
-    padding: .5em 0;
+.social-icons {
+    float: left;
+    padding-right: 10px;
+    a {
+        i {
+            padding: 4px 5px 0 5px;
+            color: @gray-light;
+            -moz-transition: all .2s ease-out;
+            -o-transition: all .2s ease-out;
+            -webkit-transition: all .2s ease-out;
+            transition: all .2s ease-out;
+        }
+
+        .social-facebook {
+            &:hover {
+                -moz-transition: all .2s ease-in;
+                -o-transition: all .2s ease-in;
+                -webkit-transition: all .2s ease-in;
+                transition: all .2s ease-in;
+                color: #3b5998;
+            }
+        }
+
+        .social-twitter {
+            &:hover {
+                -moz-transition: all .2s ease-in;
+                -o-transition: all .2s ease-in;
+                -webkit-transition: all .2s ease-in;
+                transition: all .2s ease-in;
+                color: #1da1f2;
+            }
+        }
+
+        .social-instagram {
+            &:hover {
+                -moz-transition: all .2s ease-in;
+                -o-transition: all .2s ease-in;
+                -webkit-transition: all .2s ease-in;
+                transition: all .2s ease-in;
+                color: #833ab4;
+            }
+        }
+
+        .social-email {
+            &:hover {
+                -moz-transition: all .2s ease-in;
+                -o-transition: all .2s ease-in;
+                -webkit-transition: all .2s ease-in;
+                transition: all .2s ease-in;
+                color: #ffdc80;
+            }
+        }
+    }
+}
+
+.footer-container {
+    padding-bottom: 10px;
 }

@@ -48,6 +48,14 @@ p {
   background-color: #222222;
   color: white;
 }
+.bg-gray {
+  background-color: #eeeeee;
+  color: #222222;
+}
+.bg-darkgray {
+  background-color: #555555;
+  color: #eeeeee;
+}
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
 }
@@ -229,7 +237,6 @@ header .header-content .header-content-inner p {
   max-width: 650px;
   margin: 0 auto;
   width: 100%;
-  border: thin solid white;
 }
 .portfolio-box .portfolio-box-caption {
   color: white;
@@ -416,9 +423,51 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #222222;
 }
-.footer-text {
-  padding-top: 3em;
+.navbar-brand-img {
+  float: left;
+  height: 40px;
+  padding: 0 5px 15px 0;
 }
-.social-icon {
-  padding: .5em 0;
+.social-icons {
+  float: left;
+  padding-right: 10px;
+}
+.social-icons a i {
+  padding: 4px 5px 0 5px;
+  color: #777777;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.social-icons a .social-facebook:hover {
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  color: #3b5998;
+}
+.social-icons a .social-twitter:hover {
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  color: #1da1f2;
+}
+.social-icons a .social-instagram:hover {
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  color: #833ab4;
+}
+.social-icons a .social-email:hover {
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  color: #ffdc80;
+}
+.footer-container {
+  padding-bottom: 10px;
 }
