@@ -69,6 +69,9 @@ aside {
 .no-padding {
   padding: 0;
 }
+.half-padding {
+  padding: 50px 0;
+}
 .navbar-default {
   background-color: white;
   border-color: rgba(34, 34, 34, 0.05);
@@ -163,7 +166,7 @@ header {
   -o-background-size: cover;
   background-position: center;
   background-size: cover;
-  background-image: url('../img/tc-teddy.jpg');
+  background-image: url('../img/tc-teddy-opt.jpg');
   text-align: center;
   color: white;
 }
