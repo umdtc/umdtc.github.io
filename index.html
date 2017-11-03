@@ -1,357 +1,661 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 
 <head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>UMD Tzu Ching</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Official UMD Tzu Ching Website" />
+	<meta name="keywords" content="umd, tc, umdtc, tzu ching, tzu chi, community service, service, volunteer, student organization, university of maryland, college park" />
+	<meta name="author" content="UMD Tzu Ching" />
 
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="UMD Tzu Ching">
-  <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
-  <link rel="manifest" href="favicons/manifest.json">
-  <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#458bcb">
-  <meta name="theme-color" content="#ffffff">
+	<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon16.png">
+	<link rel="manifest" href="/favicons/manifest.json">
+	<link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="/favicons/favicon.ico">
+	<meta name="msapplication-config" content="/favicons/browserconfig.xml">
 
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400, 900" rel="stylesheet">
 
-  <title>UMD Tzu Ching</title>
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<!-- Owl Carousel  -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
 
-  <!-- Bootstrap Core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom Fonts -->
-  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet" type="text/css">
-  <!-- Plugin CSS -->
-  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
-
-  <!-- Theme CSS -->
-  <link href="css/main.min.css" rel="stylesheet">
-
-  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
 
 </head>
 
-<body id="page-top">
+<body>
 
-  <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-    <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-          <span class="sr-only">Toggle navigation</span><i class="fa fa-bars fa-2x"></i>
-        </button>
-        <a class="navbar-brand page-scroll" href="#page-top"><img class="navbar-brand-img" src="img/tclogo.png">UMD Tzu Ching</a>
-      </div>
+	<div class="umdtc-loader"></div>
 
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
-          <li>
-            <a class="page-scroll" href="#about">About</a>
-          </li>
-          <li>
-            <a class="page-scroll" href="#services">Mission</a>
-          </li>
-          <li>
-            <a class="page-scroll" href="#portfolio">Service</a>
-          </li>
-          <li>
-              <a class="page-scroll" href="#signup">Sign Up</a>
-          </li>
-          <li>
-            <a class="page-scroll" href="#footer">Connect</a>
-          </li>
-        </ul>
-      </div>
-      <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container-fluid -->
-  </nav>
+	<div id="page">
+		<nav class="umdtc-nav" role="navigation">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-3 col-xs-12">
+						<div id="umdtc-logo" class="js-gotop"><a href="#">UMD Tzu Ching</a></div>
+					</div>
+					<div class="col-xs-9 text-right menu-1 main-nav">
+						<ul>
+							<li class="active"><a href="#" data-nav-section="home">Home</a></li>
+							<li><a href="#" data-nav-section="about">About</a></li>
+							<li><a href="#" data-nav-section="missions">Mission</a></li>
+							<li><a href="#" data-nav-section="team">Board</a></li>
+							<li><a href="#" data-nav-section="services">Service</a></li>
+							<li><a href="#" data-nav-section="faq">FAQ</a></li>
+							<li><a href="#" data-nav-section="calendar">Calender</a></li>
+							<li><a href="#" data-nav-section="contact">Contact</a></li>
+						</ul>
+					</div>
+				</div>
 
-  <header>
-    <div class="header-content">
-      <div class="header-content-inner">
-        <h1 id="homeHeading">Tzu Ching at UMD</h1>
-        <br />
-        <br />
-        <p>"Act with compassion and wisdom; learn from and inspire each other."</p>
-        <a href="#about" class="btn btn-primary btn-xl page-scroll">Learn More</a>
-      </div>
-    </div>
-  </header>
+			</div>
+		</nav>
 
-  <section class="bg-primary" id="about">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 text-center">
-          <h2 class="section-heading">About Us</h2>
-          <hr class="light">
-          <p class="text-faded">UMD Tzu Ching (UMDTC) is a collegiate youth group dedicated to serving our local community with sincere care, kindness, and compassion. Through various service activities both on campus at UMD and in the DC, Maryland, and Virginia areas, we
-            hope to foster a community of gratitude, respect, and love, and inspire others to lead their lives with greater compassion and humility.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+		<section class="umdtc-cover" style="background-image: url(images/tc-teddy-opt.jpg);" data-section="home" data-stellar-background-ratio="0.5">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-md-offset-0 text-center">
+						<div class="display-t">
+							<div class="display-tc">
+								<h1 class="animate-box" data-animate-effect="fadeIn">Tzu Ching at UMD</h1>
+								<h2 class="animate-box" data-animate-effect="fadeIn">"Act with compassion and wisdom"<br />"Learn from and inspire each other"</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-  <!-- Mission -->
+		<section id="umdtc-about" data-section="about">
+			<div class="container">
+				<div class="row row-pb-md">
+					<div class="col-md-8 col-md-offset-2 heading animate-box" data-animate-effect="fadeIn">
+						<h1>About Us</h1>
+						<p class="sub">What is Tzu Ching?</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 animate-box" data-animate-effect="fadeIn">
+						<p>
+							UMD Tzu Ching (UMDTC) is a collegiate youth group dedicated to serving our local community with sincere care, kindness, and compassion. Through various service activities both on campus at UMD and in the DC, Maryland, and Virginia areas, we hope to foster
+							a community of gratitude, respect, and love, and inspire others to lead their lives with greater compassion and humility.
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div id="carousel1" class="col-md-12 animate-box owl-carousel" data-animate-effect="fadeIn">
+						<div class="carousel-item"><img src="images/carousel/pic1.jpg" alt=""></div>
+						<div class="carousel-item"><img src="images/carousel/pic2.jpg" alt=""></div>
+						<div class="carousel-item"><img src="images/carousel/pic3.jpg" alt=""></div>
+						<div class="carousel-item"><img src="images/carousel/pic4.jpg" alt=""></div>
+						<div class="carousel-item"><img src="images/carousel/pic5.jpg" alt=""></div>
+						<div class="carousel-item"><img src="images/carousel/pic6.jpg" alt=""></div>
+						<div class="carousel-item"><img src="images/carousel/pic7.jpg" alt=""></div>
+						<div class="carousel-item"><img src="images/carousel/pic8.jpg" alt=""></div>
+						<div class="carousel-item"><img src="images/carousel/pic9.jpg" alt=""></div>
+						<div class="carousel-item"><img src="images/carousel/pic10.jpg" alt=""></div>
+						<div class="carousel-item"><img src="images/carousel/pic11.jpg" alt=""></div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-  <section class="half-padding" id="services">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading">Our Mission</h2>
-          <hr class="primary">
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="service-box">
-            <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
-            <h3>Charity</h3>
-            <p class="text-muted">Charity is at the forefront of our mission. Tzu Chi provides food, clothing, shelter, direct financial assistance, and more. We improve lives in tangible ways, and rejoice in how charity brings inner benefits too. Transforming feelings of
-              helplessness and despair into hope and empowerment, and bringing out the good in people through the happiness they discover when helping others is also our goal.</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="service-box">
-            <i class="fa fa-4x fa-stethoscope text-primary sr-icons"></i>
-            <h3>Medicine</h3>
-            <p class="text-muted">Illness is one of life’s most painful challenges. Providing medical care to those who lack the means to pay was Tzu Chi’s priority from the start. Today, we have a comprehensive network of hospitals, mobile units, doctors, medical professionals
-              and volunteers offering free healthcare. Ours is a human and holistic approach that values the wellbeing of patient, family, and medical team equally.
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="service-box">
-            <i class="fa fa-4x fa-book text-primary sr-icons"></i>
-            <h3>Education</h3>
-            <p class="text-muted">Teaching the next generation matters when you have the future in mind. Tzu Chi has schools, colleges, and universities worldwide. Their shared objective is to deliver superior education, and nurture virtue, kindness, compassion, and joy in
-              selfless giving. With deep faith in human nature, we advance universal respect towards all people, regardless of race, culture, language or religion.</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="service-box">
-            <i class="fa fa-4x fa-leaf text-primary sr-icons"></i>
-            <h3>Humanistic Culture</h3>
-            <p class="text-muted">Tzu Chi is dedicated to fostering humanistic culture through civil responsibility and personal character. Founded on Buddhist philosophy, we advocate the view that as individuals, we should aspire to be moral, self-aware, and willing to act
-              for the benefit of others. We offer support and spiritual guidance for pacifying negative emotions, developing love and compassion, and attaining wisdom.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <br/>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="service-box">
-            <i class="fa fa-4x fa-globe text-primary sr-icons"></i>
-            <h3>International Relief</h3>
-            <p class="text-muted">Tzu Chi is accredited by the United Nations and mobilizes to provide international disaster relief in a big way. Our volunteers arrive with immediate emergency necessities like food, clothing, shelter, and medical supplies. We also offer direct
-              financial aid to those in need. And, we’re on the ground for the long haul, rebuilding, setting up schools and water supply, offering free clinics, and more.</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="service-box">
-            <i class="fa fa-4x fa-tint text-primary sr-icons"></i>
-            <h3>Bone Marrow Donation</h3>
-            <p class="text-muted">What better way is there to ease human suffering, than saving a life? Donating bone marrow can do that, with no harm to you. Tzu Chi facilitates the process of finding a genetic match for those who require marrow, by managing a Bone Marrow
-              Donor Registry and encouraging people to join. We also have an umbilical cord blood repository, and support ongoing stem cell research and gene therapy.
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="service-box">
-            <i class="fa fa-4x fa-tree text-primary sr-icons"></i>
-            <h3>Environmental Protection</h3>
-            <p class="text-muted">Tzu Chi acts on the premise that we can protect the environment by the choices we make and our behavior as individuals. We actively promote waste reduction and recycling. We also discourage meat consumption and advocate a healthy diet consisting
-              of more fruits and vegetables. Living a simpler lifestyle and reducing our carbon footprint is crucial towards living in harmony with Mother Earth.</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="service-box">
-            <i class="fa fa-4x fa-handshake-o text-primary sr-icons"></i>
-            <h3>Volunteers</h3>
-            <p class="text-muted">Putting compassion into action is at the heart of Tzu Chi’s mission. We have a global community of millions of volunteers selflessly sharing their time, applying their energy, and offering their individual capacity for the benefit of others.
-              With their sincerity and love, volunteers make all our charity, medical, educational, international relief, and environmental protection programs possible.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <br/>
-    <br/>
-    <div class="container">
-      <div class="row">
-        <div class="text-center">
-          <a href="https://www.tzuchi.us/mission/" target="_blank" class="btn btn-primary btn-xl text-center call-to-action">Learn More</a>
-        </div>
-      </div>
-    </div>
-  </section>
+		<section id="umdtc-missions" data-section="missions">
+			<div class="container">
+				<div class="row row-pb-md">
+					<div class="col-md-8 col-md-offset-2 heading animate-box" data-animate-effect="fadeIn">
+						<h1>Our Mission</h1>
+						<p class="sub">Achieving wellbeing is the essence of human existence, but a variety of obstacles can hinder the goal and cause misery.</p>
+					</div>
+				</div>
+				<div class="row row-pb-md">
+					<div class="col-md-12 animate-box" data-animate-effect="fadeIn">
+						<p>Our parent organization, <a href="https://www.tzuchi.us/" target="_blank">Tzu Chi</a>, is an international humanitarian organization whose mission is to relieve the suffering of those in need, and create a better world for all.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 animate-box text-center" data-animate-effect="fadeIn">
+						<h2>Our Global Footprints</h2>
+						<hr>
+					</div>
+				</div>
+				<div class="row">
 
-  <!-- Services -->
+					<div class="row">
+						<div class="col-xs-11 col-md-6">
+							<div class="umdtc-mission-item animate-box">
+								<div class="mission-icon">
+									<i class="fa fa-4x fa-heart"></i>
+								</div>
+								<div class="umdtc-copy">
+									<h3>Charity</h3>
+									<p>Tzu Chi provides food, clothing, shelter, direct financial assistance, and more. Transforming feelings of helplessness and despair into hope and empowerment, and bringing out the good in people through the happiness they discover when helping
+										others is also our goal.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-11 col-md-6">
+							<div class="umdtc-mission-item animate-box">
+								<div class="mission-icon">
+									<i class="fa fa-4x fa-stethoscope"></i>
+								</div>
+								<div class="umdtc-copy">
+									<h3>Medicine</h3>
+									<p>Providing medical care to those who lack the means to pay was Tzu Chi’s priority from the start. Today, we have a comprehensive network of hospitals, mobile units, doctors, medical professionals and volunteers offering free healthcare. We value
+										the wellbeings of patients, families, and medical teams equally.</p>
+								</div>
+							</div>
+						</div>
+					</div>
 
-  <section class="half-padding" id="portfolio">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading">How We Serve</h2>
-          <hr class="primary">
-        </div>
-      </div>
-    </div>
-    <div class="container-fluid">
-      <div class="row no-gutter popup-gallery">
-        <div class="col-lg-4 col-sm-6">
-          <a href="img/portfolio/fullsize/breakfast_serving_1.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/breakfast_serving_1.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Breakfast Serving
-                                </div>
-                                <div class="project-name">
-                                     We head to two homeless shelters and serve pastries, tea, coffee and more to the homeless there. This is a great experience that will broaden your perspective on the many blessings you may take for granted.
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a href="img/portfolio/fullsize/dinner_serving_1.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/dinner_serving_1.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    NIH Dinner Serving
-                                </div>
-                                <div class="project-name">
-                                    The NIH Children's Inn provides care for families with children suffering from chronic illnesses. We have the opportunity to serve dinner to families currently residing at the Inn to help provide further care, support, and comfort.
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a href="img/portfolio/fullsize/nursing_home_1.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/nursing_home_1.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Nursing Home Visits
-                                </div>
-                                <div class="project-name">
-                                     Participate in hand excercises, arts and crafts activities, and songs with the elderly.
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a href="img/portfolio/fullsize/cleanup_1.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/cleanup_1.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Environment Cleanups
-                                </div>
-                                <div class="project-name">
-                                     We head out to clean up different locations by picking up trash. This helps us reflect on how we can make a difference by taking care of the environment.
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a href="img/portfolio/fullsize/buzzing_bees_1.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/buzzing_bees_1.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Buzzing Bees After School Program
-                                </div>
-                                <div class="project-name">
-                                    Paint Branch Elementary School is a nearby elementary school. Join us as we discuss ways we can cultivate our own mindfulness and have brighter perspectives on life.
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a href="img/portfolio/fullsize/atoc_2.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/atoc_2.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Advocating Tzu Chi on Campus
-                                </div>
-                                <div class="project-name">
-                                    ATCOC is an event dedicated to community outreach during which we interact with the general campus community and raise awareness for issues and overlooked values.
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-        </div>
-      </div>
-    </div>
-  </section>
+					<div class="row">
+						<div class="col-xs-11 col-md-6">
+							<div class="umdtc-mission-item animate-box">
+								<div class="mission-icon">
+									<i class="fa fa-4x fa-book"></i>
+								</div>
+								<div class="umdtc-copy">
+									<h3>Education</h3>
+									<p>Tzu Chi has schools, colleges, and universities worldwide. The objective is to deliver superior education, and nurture virtue, kindness, compassion, and joy in selfless giving. With deep faith in human nature, we advance universal respect towards
+										all people, regardless of race, culture, language or religion.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-11 col-md-6">
+							<div class="umdtc-mission-item animate-box">
+								<div class="mission-icon">
+									<i class="fa fa-4x fa-leaf"></i>
+								</div>
+								<div class="umdtc-copy">
+									<h3>Humanistic Culture</h3>
+									<p>Tzu Chi is dedicated to fostering humanistic culture through civil responsibility and personal character. Founded on Buddhist philosophy, we advocate the view that as individuals, we should aspire to be moral, self-aware, and willing to act for
+										the benefit of others. We pacify negative emotions, develop love and compassion, and attain wisdom.</p>
+								</div>
+							</div>
+						</div>
+					</div>
 
-  <section id="signup" class="bg-gray">
-    <div class="container text-center">
-      <div class="call-to-action">
-        <h2>Service Events Calendar</h2>
-        <hr class="primary">
-        <h5>Click on the event to sign up!</h5>
-        <div class="embed-responsive embed-responsive-16by9 text-center">
-          <iframe class="embed-responsive-item" src="https://calendar.google.com/calendar/embed?showPrint=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=umdtzuching%40gmail.com&amp;color=%23182C57&amp;ctz=America%2FNew_York" style="border-width:0" width="1000" height="600" scrolling="no"></iframe>
-        </div>
-      </div>
-    </div>
-  </section>
+					<div class="row">
+						<div class="col-xs-11 col-md-6">
+							<div class="umdtc-mission-item animate-box">
+								<div class="mission-icon">
+									<i class="fa fa-4x fa-globe"></i>
+								</div>
+								<div class="umdtc-copy">
+									<h3>International Relief</h3>
+									<p>We are accredited by the United Nations and mobilize to provide international disaster relief in a big way. Our volunteers arrive with immediate emergency necessities like food, clothing, shelter, and medical supplies. We also offer direct financial
+										aid to those in need. And, we’re on the ground for the long haul, rebuilding, setting up schools and water supply, offering free clinics, and more.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-11 col-md-6">
+							<div class="umdtc-mission-item animate-box">
+								<div class="mission-icon">
+									<i class="fa fa-4x fa-tint"></i>
+								</div>
+								<div class="umdtc-copy">
+									<h3>Bone Marrow Donor Registry</h3>
+									<p>What better way is there to ease human suffering, than saving a life? Donating bone marrow can do that, with no harm to you. Tzu Chi facilitates the process of finding a genetic match for those who require marrow, by managing a Bone Marrow Donor
+										Registry. We also have an umbilical cord blood repository and support ongoing stem cell research and gene therapy.</p>
+								</div>
+							</div>
+						</div>
+					</div>
 
-  <footer id="footer" class="footer-container">
-    <div class="container-fluid">
-        <div class="row">
-          <div class="col-xs-5 col-sm-3 col-md-3 col-lg-2">
-              <h5>© 2017 UMD Tzu Ching</h5>
-          </div>
-          <div class="col-xs-offset-4 col-sm-offset-5 col-md-offset-5 col-lg-offset-7">
-              <div class="social-icons pull-right">
-                  <a href="https://www.facebook.com/umdtzuching/" target="_blank"><i class="fa fa-facebook fa-2x social-facebook"></i></a>
-                  <a href="https://twitter.com/umdtzuching" target="_blank"><i class="fa fa-twitter fa-2x social-twitter"></i></a>
-                  <a href="https://www.instagram.com/umdtzuching/" target="_blank"><i class="fa fa-instagram fa-2x social-instagram"></i></a>
-                  <a href="mailto:umdtzuching@gmail.com"><i class="fa fa-envelope-o fa-2x social-email"></i></a>
-              </div>
-              <h5 class="pull-right">STAY CONNECTED</h5>
-          </div>
-        </div>
-    </div>
-  </footer>
+					<div class="row">
+						<div class="col-xs-11 col-md-6">
+							<div class="umdtc-mission-item animate-box">
+								<div class="mission-icon">
+									<i class="fa fa-4x fa-tree"></i>
+								</div>
+								<div class="umdtc-copy">
+									<h3>Environmental Protection</h3>
+									<p>We believe that we can protect the environment through the choices we make and our behavior as individuals. We actively promote waste reduction and recycling. We advocate a healthy diet consisting of less meat and more fruits and vegetables.
+										Living a simpler lifestyle and reducing our carbon footprint is crucial towards living in harmony with Mother Earth.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-11 col-md-6">
+							<div class="umdtc-mission-item animate-box">
+								<div class="mission-icon">
+									<i class="fa fa-4x fa-handshake-o"></i>
+								</div>
+								<div class="umdtc-copy">
+									<h3>Volunteers</h3>
+									<p>Putting compassion into action is at the heart of Tzu Chi’s mission. We have a global community of millions of volunteers selflessly sharing their time, applying their energy, and offering their individual capacity for the benefit of others.
+										With their sincerity and love, volunteers make all our charity, medical, educational, international relief, and environmental protection programs possible.</p>
+								</div>
+							</div>
+						</div>
+					</div>
 
-  <!-- jQuery -->
-  <script src="vendor/jquery/jquery.min.js"></script>
+				</div>
+			</div>
+		</section>
 
-  <!-- Bootstrap Core JavaScript -->
-  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+		<section id="umdtc-our-team" data-section="team">
+			<div class="container">
+				<div class="row row-pb-md">
+					<div class="col-md-8 col-md-offset-2 heading animate-box" data-animate-effect="fadeIn">
+						<h1>Board</h1>
+						<p class="sub">Meet our current UMDTC e-board members!</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 animate-box" data-animate-effect="fadeIn">
+						<div class="row animate-box" data-animate-effect="fadeInUp">
+							<div class="col-sm-4 col-md-4">
+								<div class="team-box text-center">
+									<div class="user"><img class="img-reponsive" src="images/eboard/president1.jpg" alt="Ryan Chang"></div>
+									<h3>Ryan Chang</h3>
+									<span class="position">Co-President</span>
+								</div>
+							</div>
 
-  <!-- Plugin JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-  <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+							<div class="col-sm-4 col-md-4">
+								<div class="team-box text-center">
+									<div class="user"><img class="img-reponsive" src="images/eboard/president2.jpg" alt="Alex Zhang"></div>
+									<h3>Alex Zhang</h3>
+									<span class="position">Co-President</span>
+								</div>
+							</div>
 
-  <!-- Theme JavaScript -->
-  <script src="js/umdtc.min.js"></script>
+							<div class="col-sm-4 col-md-4">
+								<div class="team-box text-center">
+									<div class="user"><img class="img-reponsive" src="images/eboard/advisor.jpg" alt="Alex Pu"></div>
+									<h3>Alex Pu</h3>
+									<span class="position">Senior Advisor</span>
+								</div>
+							</div>
+						</div>
+
+						<div class="row animate-box" data-animate-effect="fadeInUp">
+							<div class="col-sm-4 col-md-4">
+								<div class="team-box text-center">
+									<div class="user"><img class="img-reponsive" src="images/eboard/service1.jpg" alt="Ashley Chang"></div>
+									<h3>Ashley Chang</h3>
+									<span class="position">Service Chair</span>
+								</div>
+							</div>
+
+							<div class="col-sm-4 col-md-4">
+								<div class="team-box text-center">
+									<div class="user"><img class="img-reponsive" src="images/eboard/service2.jpg" alt="Chris Chen"></div>
+									<h3>Chris Chen</h3>
+									<span class="position">Service Chair</span>
+								</div>
+							</div>
+
+							<div class="col-sm-4 col-md-4">
+								<div class="team-box text-center">
+									<div class="user"><img class="img-reponsive" src="images/eboard/service3.jpg" alt="Kathy Chen"></div>
+									<h3>Kathy Chen</h3>
+									<span class="position">Service Chair</span>
+								</div>
+							</div>
+						</div>
+
+						<div class="row animate-box" data-animate-effect="fadeInUp">
+							<div class="col-sm-4 col-md-4">
+								<div class="team-box text-center">
+									<div class="user"><img class="img-reponsive" src="images/eboard/treasurer.jpg" alt="Jimmy Lei"></div>
+									<h3>Jimmy Lei</h3>
+									<span class="position">Treasurer</span>
+								</div>
+							</div>
+
+							<div class="col-sm-4 col-md-4">
+								<div class="team-box text-center">
+									<div class="user"><img class="img-reponsive" src="images/eboard/publicrelations.jpg" alt="David Ho"></div>
+									<h3>David Ho</h3>
+									<span class="position">Public Relations</span>
+								</div>
+							</div>
+
+							<div class="col-sm-4 col-md-4">
+								<div class="team-box text-center">
+									<div class="user"><img class="img-reponsive" src="images/eboard/media.jpg" alt="Justin Chan"></div>
+									<h3>Justin Chan</h3>
+									<span class="position">Media Chair</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="umdtc-service" data-section="services">
+			<div class="container">
+				<div class="row row-pb-md">
+					<div class="col-md-8 col-md-offset-2 heading animate-box" data-animate-effect="fadeIn">
+						<h1>Service Events</h1>
+						<p class="sub">Learn about some of the different service events we do!</p>
+					</div>
+				</div>
+
+				<div class="row animate-box" data-animate-effect="fadeIn">
+				  <div class="col-sm-6 col-md-6 animate-box" data-animate-effect="fadeInLeft">
+				    <div class="thumbnail">
+				      <img src="images/services/breakfast-serving-1.jpg" alt="Breakfast Serving">
+				      <div class="caption">
+				        <h3 class="text-center">Breakfast Serving</h3>
+				        <p>We head to a couple homeless shelters and serve pastries, tea, coffee and more to the homeless there. This is a great experience that will broaden your perspective on the many blessings you may take for granted.</p>
+				      </div>
+				    </div>
+				  </div>
+					<div class="col-sm-6 col-md-6 animate-box" data-animate-effect="fadeInRight">
+						<div class="thumbnail">
+							<img src="images/services/dinner-serving-1.jpg" alt="NIH Dinner Serving">
+							<div class="caption">
+								<h3 class="text-center">NIH Dinner Serving</h3>
+								<p>The NIH Children's Inn provides care for families with children suffering from chronic illnesses. We have the opportunity to serve dinner to families currently residing at the Inn to help provide further care, support, and comfort.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-6 col-md-6 animate-box" data-animate-effect="fadeInLeft">
+						<div class="thumbnail">
+							<img src="images/services/nursing-home-1.jpg" alt="Nursing Home Visit">
+							<div class="caption">
+								<h3 class="text-center">Nursing Home Visits</h3>
+								<p>We visit nursing homes to entertain and spend time with the eldery. Join us in a fun morning filled with hand exercises, musical performances, and bingo!</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-6 animate-box" data-animate-effect="fadeInRight">
+						<div class="thumbnail">
+							<img src="images/services/buzzing-bees-1.jpg" alt="Buzzing Bees">
+							<div class="caption">
+								<h3 class="text-center">Buzzing Bees After School Program</h3>
+								<p>Every week, we visit the students at Paint Branch Elementary to talk about values they can apply to their everyday lives. Join us this Wednesday as we talk about life values and spend time with the students!</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 animate-box" data-animate-effect="fadeInUp">
+						<div class="thumbnail">
+							<div id="carousel2" class="animate-box owl-carousel" data-animate-effect="fadeIn">
+								<div class="carousel-item"><img src="images/events-carousel/pic1.jpg" alt=""></div>
+								<div class="carousel-item"><img src="images/events-carousel/pic2.jpg" alt=""></div>
+								<div class="carousel-item"><img src="images/events-carousel/pic3.jpg" alt=""></div>
+								<div class="carousel-item"><img src="images/events-carousel/pic4.jpg" alt=""></div>
+								<div class="carousel-item"><img src="images/events-carousel/pic5.jpg" alt=""></div>
+								<div class="carousel-item"><img src="images/events-carousel/pic6.jpg" alt=""></div>
+								<div class="carousel-item"><img src="images/events-carousel/pic7.jpg" alt=""></div>
+								<div class="carousel-item"><img src="images/events-carousel/pic8.jpg" alt=""></div>
+								<div class="carousel-item"><img src="images/events-carousel/pic9.jpg" alt=""></div>
+							</div>
+							<div class="caption">
+								<h3 class="text-center">Other Events and Socials</h3>
+								<p>We ocassionally have other fun service and social events such as, environment cleanups, hiking, TC Iron Chef, The Board and Brew socials, and many more! You can keep up with our events by coming to our monthly GBM's, checking our Calendar, Facebook, or subscribing to our mailing list.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<section id="umdtc-faq" data-section="faq">
+			<div class="container">
+				<div class="row row-pb-md">
+					<div class="col-md-8 col-md-offset-2 heading animate-box" data-animate-effect="fadeIn">
+						<h1>Frequently Asked Questions</h1>
+						<p class="sub">Learn a little more about our organzation!</p>
+					</div>
+				</div>
+				<!-- FAQ Panels -->
+				<div class="row animate-box" data-animate-effect="fadeInUp">
+					<!-- Start of left FAQ -->
+					<div class="col-md-6">
+						<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+							<!-- FAQ1 -->
+							<div class="panel panel-default animate-box">
+								<div class="panel-heading" role="tab" id="faq1">
+									<h4 class="panel-title">
+										<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+											When are your General Body Meetings?
+										</a>
+									</h4>
+								</div>
+								<div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq1">
+									<div class="panel-body">
+										We have our general body meeting (GBM) the first friday of every month in the academic year. We usually have them at 6pm at a specified location. We talk about different topics and values each meeting and top it off with delicious homecooked Taiwanese food. Follow us on Facebook to stay updated on events and see you at GBM!
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-default animate-box">
+								<div class="panel-heading" role="tab" id="faq2">
+									<h4 class="panel-title">
+										<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+											What kind of student organization is this?
+										</a>
+									</h4>
+								</div>
+								<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq2">
+									<div class="panel-body">
+										We are a service-based organization that focuses on more than just helping the community. We want our members and volunteers to grow as people through service, and we like to focus on values and the meaning of why we serve. If you have any desire to help other people, we can guarantee that there’s a place for you in TC.
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-default animate-box">
+								<div class="panel-heading" role="tab" id="faq3">
+									<h4 class="panel-title">
+										<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+											Is TC Religious?
+										</a>
+									</h4>
+								</div>
+								<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq3">
+									<div class="panel-body">
+										Tzu Chi Foundation was founded by a Buddhist monk in 1966, but it stands primarily as a service organization. That being said, we will never try to proselytize anyone or make them do anything they are not comfortable with. We have a wide varieties of faiths and religions at UMDTC, and we want to make sure that continues!
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-default animate-box">
+								<div class="panel-heading" role="tab" id="faq8">
+									<h4 class="panel-title">
+										<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+											Do I have to pay to join this organization?
+										</a>
+									</h4>
+								</div>
+								<div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq8">
+									<div class="panel-body">
+										Absolutely not! There are no dues, fees, or obligations you need to join TC. If you are available for a service event, we would love to have you for it, but there is no pressure in meeting a certain requirement or paying anything.
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-default animate-box">
+								<div class="panel-heading" role="tab" id="faq9">
+									<h4 class="panel-title">
+										<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+											Is this organization only at UMD?
+										</a>
+									</h4>
+								</div>
+								<div id="collapseNine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq9">
+									<div class="panel-body">
+										Nope! While TC is an international organization, the Tzu Ching branch has established chapters all over the United States and all over the globe. Tzu Ching chapters can be found at schools such as: University of California Los Angeles, Emory University, University of California San Diego, New York University, The University of Texas at Austin, Texas A&M, and more. College students just like us are doing service all over the United States, and the Tzu Ching network spans far beyond UMD!
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- End of left FAQ -->
+					<!-- Start of right FAQ -->
+					<div class="col-md-6">
+						<div class="panel-group" id="accordion2" role="tablist" aria-multiselectable="true">
+							<div class="panel panel-default animate-box">
+								<div class="panel-heading" role="tab" id="faq10">
+									<h4 class="panel-title">
+										<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+											Why do we have a uniform?
+										</a>
+									</h4>
+								</div>
+								<div id="collapseTen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq10">
+									<div class="panel-body">
+										Tzu Chi is an international humanitarian organization that does a lot of disaster relief all over the world. While we do not require you to wear the uniform, it is meant to represent keeping your mind as “clear as the sky” with the blue polo, and as “pure as the clouds” with the white pants.
+										<br /><br />
+										There are millions of TC volunteers stationed all over the world and when disaster strikes, thousands of people can be affected in a certain area. TC volunteers wear the uniform so that those that are in need can recognize that the volunteers are people there to help them. It also gives a sense of anonymity: volunteers are not standing as individuals, but are there to represent TC as  whole.
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-default animate-box">
+								<div class="panel-heading" role="tab" id="faq4">
+									<h4 class="panel-title">
+										<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+											How do I get a uniform?
+										</a>
+									</h4>
+								</div>
+								<div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq4">
+									<div class="panel-body">
+										The blue polo and white pants are definitely a fashion statement, but you need to complete 20 hours of service with us in order to earn your uniform. Check out our calendar of events or sign-up to be on our email list for all of our service opportunities!
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-default animate-box">
+								<div class="panel-heading" role="tab" id="faq5">
+									<h4 class="panel-title">
+										<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+											What is UMDTC as a student organization trying to achieve?
+										</a>
+									</h4>
+								</div>
+								<div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq5">
+									<div class="panel-body">
+										At UMDTC, we want to create a welcoming and open atmosphere for members. We hope that through service, members will learn more about themselves and about others, and will be able to take away lessons that they can apply to their everyday lives.
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-default animate-box">
+								<div class="panel-heading" role="tab" id="faq6">
+									<h4 class="panel-title">
+										<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+											What types of events do you have?
+										</a>
+									</h4>
+								</div>
+								<div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq6">
+									<div class="panel-body">
+										We have a variety of service events but we like to have fun too! Scroll (up/down) to find out more about our longitudinal and recurring service events, and keep a lookout for our club socials as well.
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-default animate-box">
+								<div class="panel-heading" role="tab" id="faq7">
+									<h4 class="panel-title">
+										<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+											How do you sign up to attend the events?
+										</a>
+									</h4>
+								</div>
+								<div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq7">
+									<div class="panel-body">
+										If you scroll down to the calendar, you will find our service events listed for the current month. Click an event, find the “Sign-up Here” link, and fill out the form to sign up! Additionally, we send an email once a week with all of the service events that are happening and you can sign up from there as well.
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- End of right FAQ -->
+				</div>
+			</div>
+		</section>
+
+		<section id="umdtc-calendar" data-section="calendar">
+			<div class="container">
+				<div class="row row-pb-md">
+					<div class="col-md-8 col-md-offset-2 heading animate-box" data-animate-effect="fadeIn">
+						<h1>Calendar</h1>
+						<p class="sub">Sign up to volunteer at service events!</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 animate-box">
+						<div class="responsive-iframe-container big-container">
+							<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=umdtzuching%40gmail.com&amp;color=%23182C57&amp;src=en.usa%23holiday%40group.v.calendar.google.com&amp;color=%238D6F47&amp;ctz=America%2FNew_York" style="border-width:0" width="100%" height="650" frameborder="0" scrolling="no"></iframe>
+						</div>
+						<div class="responsive-iframe-container small-container">
+							<iframe src="https://calendar.google.com/calendar/embed?mode=AGENDA&showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=umdtzuching%40gmail.com&amp;color=%23182C57&amp;src=en.usa%23holiday%40group.v.calendar.google.com&amp;color=%238D6F47&amp;ctz=America%2FNew_York" style="border-width:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer id="umdtc-footer" role="contentinfo" data-section="contact">
+			<div class="container">
+
+				<div class="row copyright">
+					<div class="col-md-12">
+						<p class="pull-left">
+							<small class="block">&copy; 2017 UMD Tzu Ching</small>
+						</p>
+						<p class="pull-right">
+							<ul class="umdtc-social-icons pull-right">
+								<li><a href="https://www.facebook.com/umdtzuching/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Follow us on Facebook!"></i></a></li>
+								<li><a href="https://www.instagram.com/umdtzuching/" target="_blank"><i class="fa fa-instagram" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Follow us on Instagram!"></i></a></li>
+								<li><a href="mailto:umdtzuching@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send us an email!"></i></a></li>
+								<li><a href="https://github.com/umdtc/umdtc.github.io" target="_blank"><i class="fa fa-github" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Check this out on Github!"></i></a></li>
+							</ul>
+						</p>
+					</div>
+				</div>
+
+			</div>
+		</footer>
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="fa fa-long-arrow-up" aria-hidden="true"></i></a>
+	</div>
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Migrate -->
+	<script src="js/jquery-migrate.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!-- Owl Carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Stellar -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+	<!-- Font Awesome -->
+	<script src="https://use.fontawesome.com/f7f9767f2d.js"></script>
+	<!-- Main -->
+	<script src="js/main.min.js"></script>
 
 </body>
 
