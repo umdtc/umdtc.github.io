@@ -17,3 +17,8 @@ This is a repository. The repository is like a google drive folder; it contains 
 
 **Branching** is the main feature of Github that allows users to work on different versions of the project at the same time.
 By default your repository has one branch named `master` which is considered to be the definitive branch. We use branches to experiment and make edits before committing them to `master`.
+
+When you create a branch off the `master` branch, you’re making a copy of `master` as it was at that point in time. 
+
+## Create a new branch:
+1. In the upper righthand corner, find the drop-down menu at the top of the file list that says ##branch-master##.
