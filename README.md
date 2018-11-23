@@ -44,3 +44,11 @@ When you open a pull request, you’re proposing your changes and requesting tha
 3. Look over your changes in the diffs on the Compare page, make sure they’re what you want to submit.
 4. When you’re satisfied that these are the changes you want to submit, click the big green **Create Pull Request** button.
 5. Give your pull request a title and write a brief description of your changes.
+
+Feel free to @aixular in your pull request message, so that I can take a look at your pull request!
+
+## Merge your Pull Request
+Combine the changes you made in the `new branch` to the `master` branch.
+1. Click the green **Merge pull request** button to merge the changes into `master`.
+2. Click **Confirm merge**.
+3. Go ahead and delete the branch, since its changes have been incorporated, with the **Delete branch** button in the purple box.
