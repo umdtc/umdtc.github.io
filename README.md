@@ -21,4 +21,15 @@ By default your repository has one branch named `master` which is considered to 
 When you create a branch off the `master` branch, you’re making a copy of `master` as it was at that point in time. 
 
 ## Create a new branch:
-1. In the upper righthand corner, find the drop-down menu at the top of the file list that says ##branch-master##.
+1. In the upper lefthand corner, find the drop-down menu at the top of the file list that says **branch-master**.
+2. Type a branch name, e.g. `new branch`, into the branch text box.
+3. Hit enter.
+
+This should create a new branch that you can make edits in. Any changes to the `new branch` branch will not effect the `master` branch until you commit these changes.
+
+## Make and Commit changes
+1. Click on the file you want to edit.
+2. Find the pencil icon in the upper righthand corner of the file view to edit.
+3. Make edits to the file.
+4. Write a commit message that describes your changes.
+5. Click the **Commit Changes** button.
