@@ -20,7 +20,7 @@ By default your repository has one branch named `master` which is considered to 
 
 When you create a branch off the `master` branch, you’re making a copy of `master` as it was at that point in time. 
 
-## Create a new branch:
+## Create a new branch
 1. In the upper lefthand corner, find the drop-down menu at the top of the file list that says **branch-master**.
 2. Type a branch name, e.g. `new branch`, into the branch text box.
 3. Hit enter.
@@ -33,3 +33,14 @@ This should create a new branch that you can make edits in. Any changes to the `
 3. Make edits to the file.
 4. Write a commit message that describes your changes.
 5. Click the **Commit Changes** button.
+
+These changes will now be "committed" to the `new branch` branch, so now this branch contains content that's different from `master`. 
+
+## Open a Pull Request
+When you open a pull request, you’re proposing your changes and requesting that someone review and pull in your contribution and merge them into their branch. Pull requests show diffs, or differences, of the content from both branches. The changes, additions, and subtractions are shown in green and red.
+
+1. Click the **Pull Request** tab, then from the Pull Request page, click the green New pull request button.
+2. In the **Example Comparisons** box, select the branch you made `new branch`, to compare with the `master` branch.
+3. Look over your changes in the diffs on the Compare page, make sure they’re what you want to submit.
+4. When you’re satisfied that these are the changes you want to submit, click the big green **Create Pull Request** button.
+5. Give your pull request a title and write a brief description of your changes.
